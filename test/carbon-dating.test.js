@@ -7,7 +7,7 @@ Object.freeze(assert);
 const dateSample = require('../src/carbon-dating.js');
 
 
-describe('Carbon dating', () => {
+describe('Carbon dating', () => { 
   // Presence requirement
   describe('variable presence', () => {
     it.optional('function dateSample exists', () => {
